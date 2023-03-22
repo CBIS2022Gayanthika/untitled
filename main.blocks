@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="[T;h]|?kBvj%#.i(h$P5">happy</variable><variable id="J$gpw1jXy8:e(W6VTX`O">turn</variable><variable id=",amJLQVS`(a{(l;Yd5.G">scared</variable><variable id="?/oJ-{bD)D%JxvW_cDc2">crying</variable><variable id="z=0+A#N#JAwCv1I;|K*)">sad</variable><variable id="%3C89@[`K:|I^3yP$,;r">myImage</variable></variables><block type="pxt-on-start" id="4?.73Y.$ngT;NF(o53|p" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="ma^mP!q7DeG$0zw`B+`C"><field name="VAR" id="[T;h]|?kBvj%#.i(h$P5">happy</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="g)EEP}-7vjYKN,hbeYCD"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></value><next><block type="variables_set" id="6ULFf|)qu?}8wg/2H2rF"><field name="VAR" id="?/oJ-{bD)D%JxvW_cDc2">crying</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="i@Z4DV(B)Vt,:sXF3z{m"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        # . . . # 
+        . # # # . 
+        # . . . #
+        `</field></block></value><next><block type="variables_set" id=")K#WpjGt%Q@@je,=Vx[?"><field name="VAR" id="z=0+A#N#JAwCv1I;|K*)">sad</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="6nPyEXW!M3rOIoU9$%,t"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></value></block></next></block></next></block></statement></block><block type="device_gesture_event" id="jhOs+-dmhu+.BA%FtuX8" x="532" y="4"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_image_offset" id="?GZTBoSn+I`mGFpKKy60"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="O)zA7XkRk(BCpA.mza])"><field name="VAR" id="?/oJ-{bD)D%JxvW_cDc2">crying</field></block></value><value name="offset"><shadow type="math_number" id="60yqQO3_qc5pO!~l=l.l"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id=";sWSCSq,7K2Vhsi3pe*c"><field name="NUM">400</field></shadow></value><next><block type="device_pause" id="i}~`5+L.4UU5us2nvAO^"><value name="pause"><shadow type="timePicker" id="(+)OkF]Pqrn4-op{7^/e"><field name="ms">5000</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="oGeO6-xqEZjqKa@@!s0o" x="534" y="213"></block></xml>
