@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+	
+})
 input.onGesture(Gesture.Shake, function () {
     crying.showImage(0)
     basic.pause(5000)
@@ -24,6 +27,3 @@ let sad = images.createImage(`
     . # # # .
     # . . . #
     `)
-basic.forever(function () {
-	
-})
